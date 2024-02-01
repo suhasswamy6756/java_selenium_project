@@ -1,3 +1,4 @@
+package ecommerce.src;
 import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
@@ -18,7 +19,6 @@ public class project {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\suhas\\Desktop\\Academics\\5th sem\\software tesitng\\project\\ecommerce\\src\\driver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         // WebDriverWait wait = new WebDriverWait(driver, 3);
-        
         
 
         cookies(driver);
