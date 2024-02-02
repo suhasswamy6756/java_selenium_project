@@ -14,15 +14,16 @@ import org.openqa.selenium.WebElement;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
 
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class project2 {
     public static void main(String[] args) throws InterruptedException, CsvValidationException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\suhas\\Desktop\\Academics\\5th sem\\software tesitng\\project\\ecommerce\\src\\driver\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+        System.setProperty("webdriver.edge.driver", "C:\\Users\\suhas\\Desktop\\Academics\\5th sem\\software tesitng\\project\\ecommerce\\src\\driver\\msedgedriver.exe");
+
+        WebDriver driver = new EdgeDriver();
         // WebDriverWait wait = new WebDriverWait(driver, 3);
         
 
@@ -34,7 +35,7 @@ public class project2 {
 
         
 
-        Thread.sleep(10000);
+        Thread.sleep(3000);
         driver.quit();
         
         
